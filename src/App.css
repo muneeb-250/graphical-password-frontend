@@ -35,6 +35,7 @@ h1 span {
 
 h2 {
   color: white;
+  font-size: 2rem;
 }
 
 form {
@@ -46,6 +47,7 @@ form {
 
 input {
   border: none;
+  text-indent: 4px;
 }
 
 input:focus {
@@ -102,6 +104,14 @@ button:active {
 
 main {
   display: flex;
+}
+
+main.signup {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
+  /* background-color: red; */
 }
 
 main div.left {
